@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cyber Sentinel</string>
+    <string name="call_screening_service_label">Cyber Sentinel Call Guard</string>
+    <string name="notification_service_label">Cyber Sentinel Scam Link Detector</string>
+    <string name="channel_call_monitor_name">Active Call Protection</string>
+    <string name="channel_call_monitor_desc">Monitors unknown calls for digital arrest and extortion speech patterns in real-time</string>
+    <string name="channel_alerts_name">Urgent Threat Alerts</string>
+    <string name="channel_alerts_desc">Urgent notifications when high-risk scam attempts are detected</string>
+</resources>
+

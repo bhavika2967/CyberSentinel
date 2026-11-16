@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Outline -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M54,22L28,34v22c0,16.5 11.1,31.9 26,35.6 14.9,-3.7 26,-19.1 26,-35.6V34L54,22zM74,56c0,13.7 -9.2,26.4 -20,29.8C43.2,82.4 34,69.7 34,56V38.5L54,29.3l20,9.2V56z" />
+    <!-- Inner Core Eye / Lock -->
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M54,42c-5.5,0 -10,4.5 -10,10 0,3.9 2.2,7.2 5.5,8.9V67h9v-6.1c3.3,-1.7 5.5,-5 5.5,-8.9 0,-5.5 -4.5,-10 -10,-10z" />
+</vector>
+
