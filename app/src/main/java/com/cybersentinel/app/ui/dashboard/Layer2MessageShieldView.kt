@@ -96,7 +96,7 @@ import kotlinx.coroutines.withContext
 
 /**
  * LAYER 2: Real Screenshot OCR & QR Code Scanner (Google ML Kit)
- * - Native Image Picker via ActivityResultContracts.GetContent("image/*")
+ * - Native Image Picker via ActivityResultContracts.GetContent("image/all")
  * - On-Device ML Kit Text Recognition & Barcode Scanning (zero cloud reliance)
  * - Animated scanning line overlay while processing bitmap
  * - Direct extraction of QR payloads and OCR text passed to Threat Engine

@@ -15,10 +15,10 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface GuardianDao {
 
-    @Query("SELECT * FROM guardians ORDER BY createdAt DESC")
+    @Query("SELECT * FROM guardians ORDER BY created_at DESC")
     fun getAllGuardians(): Flow<List<GuardianEntity>>
 
-    @Query("SELECT * FROM guardians ORDER BY createdAt DESC")
+    @Query("SELECT * FROM guardians ORDER BY created_at DESC")
     suspend fun getAllGuardiansSync(): List<GuardianEntity>
 
     @Query("SELECT * FROM guardians WHERE id = :id LIMIT 1")
