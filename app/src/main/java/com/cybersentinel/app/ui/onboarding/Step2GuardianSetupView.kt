@@ -53,6 +53,7 @@ import androidx.compose.ui.unit.sp
 import com.cybersentinel.app.data.local.entity.GuardianEntity
 import com.cybersentinel.app.ui.components.GuardianCard
 import com.cybersentinel.app.ui.theme.CriticalCrimsonAlert
+import com.cybersentinel.app.ui.theme.CyanGlow
 import com.cybersentinel.app.ui.theme.ElectricCyan
 import com.cybersentinel.app.ui.theme.LuminousPurple
 import com.cybersentinel.app.ui.theme.MidnightIndigo

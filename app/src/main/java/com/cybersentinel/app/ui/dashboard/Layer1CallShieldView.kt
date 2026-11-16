@@ -1,5 +1,6 @@
 package com.cybersentinel.app.ui.dashboard
 
+import com.cybersentinel.app.ui.theme.*
 import android.content.Intent
 import android.net.Uri
 import android.widget.Toast

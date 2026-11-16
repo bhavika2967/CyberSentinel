@@ -286,15 +286,17 @@ fun DashboardScreen(
                         }
                         ProtectionLayer.LAYER_3 -> {
                             Layer3GuardianNetworkView(
-                                guardians = guardians,
-                                onAddGuardian = { name, rel, phone ->
-                                    viewModel.addGuardian(name, rel, phone)
-                                },
-                                onUpdateGuardian = { viewModel.updateGuardian(it) },
-                                onDeleteGuardian = { viewModel.deleteGuardian(it) },
-                                onTestSosSms = { viewModel.triggerTestGuardianAlert(context) },
-                                sosSentCount = uiState.sosSentCount
-                            )
+    guardians = guardians,
+    viewModel = viewModel,
+    incidents = incidents,
+    onAddGuardian = { name, rel, phone ->
+        viewModel.addGuardian(name, rel, phone)
+    },
+    onUpdateGuardian = { viewModel.updateGuardian(it) },
+    onDeleteGuardian = { viewModel.deleteGuardian(it) },
+    onTestSosSms = { viewModel.triggerTestGuardianAlert(context) },
+    sosSentCount = uistate.sosSentCount
+)
                         }
                     }
                 }

@@ -30,6 +30,7 @@ import com.cybersentinel.app.R
 import com.cybersentinel.app.ui.overlay.CallInterventionContent
 import com.cybersentinel.app.ui.overlay.ScamAlertOverlayActivity
 import com.cybersentinel.app.ui.theme.CyberSentinelTheme
+import com.cybersentinel.app.ui.theme.*
 
 /**
  * Genuine Android WindowManager Full-Screen Overlay Service.

@@ -1,5 +1,6 @@
 package com.cybersentinel.app.ui.dashboard
 
+import com.cybersentinel.app.ui.theme.*
 import android.widget.Toast
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.ExperimentalAnimationApi
